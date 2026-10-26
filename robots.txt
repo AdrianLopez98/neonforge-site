@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adrianlopez98.github.io/neonforge/sitemap.xml

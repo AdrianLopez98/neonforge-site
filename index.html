@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Forge — Cyberpunk City Builder for Android</title>
+<meta name="description" content="Neon Forge is a cozy cyberpunk city builder for Android. Grow a rainy neon city block by block: 3D holograms, drones, flying traffic, day and night. One-time purchase, no ads, no in-app purchases.">
+<link rel="canonical" href="https://adrianlopez98.github.io/neonforge/">
+<link rel="icon" href="img/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Neon Forge — Cyberpunk City Builder for Android">
+<meta property="og:description" content="Grow a rainy neon city block by block. One-time purchase, no ads, no in-app purchases.">
+<meta property="og:image" content="https://adrianlopez98.github.io/neonforge/img/og.jpg">
+<meta property="og:url" content="https://adrianlopez98.github.io/neonforge/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Neon Forge",
+  "alternateName": "Neon Forge: Cyber City Builder",
+  "url": "https://adrianlopez98.github.io/neonforge/",
+  "image": "https://adrianlopez98.github.io/neonforge/img/hero.jpg",
+  "description": "A cozy cyberpunk city builder for Android. Start with one noodle bar on a dark street and grow it into a neon metropolis with 3D holograms, drones, flying traffic, a monorail and a day and night cycle.",
+  "genre": ["City builder", "Simulation", "Incremental", "Cyberpunk"],
+  "gamePlatform": "Android",
+  "operatingSystem": "Android 8.0+",
+  "applicationCategory": "Game",
+  "inLanguage": ["en", "es", "de", "fr", "it", "pt"],
+  "author": {"@type": "Organization", "name": "DokkodoLabs"},
+  "publisher": {"@type": "Organization", "name": "DokkodoLabs"},
+  "offers": {"@type": "Offer", "price": "3.99", "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": "https://play.google.com/store/apps/details?id=com.dokkodolabs.neonforge"},
+  "trailer": {"@type": "VideoObject", "name": "Neon Forge — Launch Trailer", "description": "Launch trailer of Neon Forge, a cozy cyberpunk city builder for Android, captured in-game.", "thumbnailUrl": "https://i.ytimg.com/vi/aNmMFXQ1KRU/hqdefault.jpg", "uploadDate": "2026-10-25", "embedUrl": "https://www.youtube.com/embed/aNmMFXQ1KRU", "contentUrl": "https://youtu.be/aNmMFXQ1KRU"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What kind of game is Neon Forge?", "acceptedAnswer": {"@type": "Answer", "text": "A relaxing cyberpunk city builder with incremental progression: you build shops, collect their earnings, upgrade them through four tiers and expand into dark districts that light up as you grow."}},
+    {"@type": "Question", "name": "Which platforms is it on?", "acceptedAnswer": {"@type": "Answer", "text": "Android, on Google Play. A PC version for Steam is in preparation."}},
+    {"@type": "Question", "name": "Does it have ads or in-app purchases?", "acceptedAnswer": {"@type": "Answer", "text": "No. Neon Forge is a one-time purchase with no ads and no in-app purchases. The optional premium currency is only earned by playing."}},
+    {"@type": "Question", "name": "Can I play offline?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The whole game plays offline."}},
+    {"@type": "Question", "name": "Which languages does it support?", "acceptedAnswer": {"@type": "Answer", "text": "English, Spanish, German, French, Italian and Portuguese."}}
+  ]
+}
+</script>
+<style>
+:root{--bg:#07070f;--panel:#0f1020;--ink:#e9ecff;--muted:#9aa3c7;--cyan:#38f2ff;--pink:#ff3ea5;--line:#24264a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+a{color:var(--cyan)}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+header.hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;background:#000 url(img/hero.jpg) center/cover no-repeat}
+header.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,7,15,.15) 0%,rgba(7,7,15,.55) 55%,var(--bg) 100%)}
+.hero .wrap{position:relative;z-index:1;padding-block:56px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{width:64px;height:64px;border-radius:14px;box-shadow:0 0 24px rgba(56,242,255,.35)}
+h1{font:700 clamp(2.4rem,6vw,4.4rem)/1 "Chakra Petch",sans-serif;letter-spacing:.06em;margin:0;text-shadow:0 0 18px rgba(56,242,255,.55)}
+.tag{font:500 1.05rem "Chakra Petch",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--pink);margin:6px 0 0}
+.lead{max-width:640px;font-size:1.15rem;color:#d6dbff;margin:22px 0 26px}
+.cta{display:inline-flex;align-items:center;gap:10px;background:var(--cyan);color:#041018;font:700 1rem "Chakra Petch",sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:14px 22px;border-radius:10px;text-decoration:none;box-shadow:0 0 22px rgba(56,242,255,.45)}
+.cta:hover{filter:brightness(1.1)}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;color:var(--muted);font-size:.95rem}
+.facts span{border:1px solid var(--line);border-radius:999px;padding:4px 12px;background:rgba(15,16,32,.6)}
+section{padding-block:56px}
+h2{font:700 1.7rem "Chakra Petch",sans-serif;letter-spacing:.06em;text-transform:uppercase;margin:0 0 20px;color:var(--cyan)}
+.video{position:relative;aspect-ratio:16/9;max-width:100%;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#000}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{font:700 1.1rem "Chakra Petch",sans-serif;margin:0 0 8px;color:var(--ink)}
+.card p{margin:0;color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.shots img{width:100%;max-width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{color:var(--muted);margin:10px 0 0}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.9rem;padding-block:28px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><img src="img/icon.png" alt="Neon Forge icon" width="64" height="64">
+      <div><h1>NEON FORGE</h1><p class="tag">Cyberpunk city builder</p></div></div>
+    <p class="lead">Build a glowing cyberpunk city, one neon sign at a time. Start with a single noodle bar on a dark, rainy street and grow it, block by block, into a neon metropolis that comes alive at night.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.dokkodolabs.neonforge">Get it on Google Play</a>
+    <div class="facts"><span>Android</span><span>One-time purchase</span><span>No ads</span><span>No in-app purchases</span><span>Plays offline</span><span>6 languages</span></div>
+  </div>
+</header>
+
+<main>
+<section><div class="wrap">
+  <h2>Launch trailer</h2>
+  <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/aNmMFXQ1KRU" title="Neon Forge launch trailer" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>What you do</h2>
+  <div class="grid">
+    <div class="card"><h3>Build and collect</h3><p>Place shops, factories and towers, tap to collect what they earn, and watch construction rise with scaffolding and tower cranes. Your city earns while you play and while you're away.</p></div>
+    <div class="card"><h3>Upgrade the skyline</h3><p>More than 90 buildings, most with four tiers of unique architecture. Every upgrade and every finished district visibly changes the skyline.</p></div>
+    <div class="card"><h3>Build your way</h3><p>Districts and blocks reward how you build — density, mix, housing next to shops. Bonuses, never penalties: there is no single correct city.</p></div>
+    <div class="card"><h3>A city with a life of its own</h3><p>A day and night cycle where the neon switches on building by building, acid rain, flying cars, delivery drones, a monorail, 3D holograms and citizens with their own stories.</p></div>
+    <div class="card"><h3>Research and rivals</h3><p>Research new technologies, sign contracts with rival corporations and throw festivals that fill the sky with lanterns and searchlights.</p></div>
+    <div class="card"><h3>Never finished, never lost</h3><p>When a city is complete, found the next one. Your old city keeps standing and you can walk back into it any time — or ride through it in a car, a drone or the train.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="img/night.jpg" alt="Neon Forge cyberpunk city at night with neon towers" loading="lazy">
+    <img src="img/dragon.jpg" alt="3D hologram dragon over La Gran Forja megatower" loading="lazy">
+    <img src="img/site.jpg" alt="A finished tower lit up beside a neon bar" loading="lazy">
+    <img src="img/street.jpg" alt="Ramen stall with steam on a rainy neon street" loading="lazy">
+    <img src="img/holograms.jpg" alt="Garden of 3D holograms among the rooftops" loading="lazy">
+    <img src="img/catalog.jpg" alt="Building catalog at dusk" loading="lazy">
+    <img src="img/lanterns.jpg" alt="Sky lantern festival over the cyberpunk city" loading="lazy">
+    <img src="img/day.jpg" alt="The neon city by day" loading="lazy">
+  </div>
+</div></section>
+
+<section class="faq"><div class="wrap">
+  <h2>FAQ</h2>
+  <details><summary>What kind of game is Neon Forge?</summary><p>A relaxing cyberpunk city builder with incremental progression: you build shops, collect their earnings, upgrade them through four tiers and expand into dark districts that light up as you grow.</p></details>
+  <details><summary>Which platforms is it on?</summary><p>Android, on Google Play. A PC version for Steam is in preparation.</p></details>
+  <details><summary>Does it have ads or in-app purchases?</summary><p>No. Neon Forge is a one-time purchase with no ads and no in-app purchases. The optional premium currency is only earned by playing.</p></details>
+  <details><summary>Can I play offline?</summary><p>Yes. The whole game plays offline.</p></details>
+  <details><summary>Which languages does it support?</summary><p>English, Spanish, German, French, Italian and Portuguese.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>© 2026 DokkodoLabs · Neon Forge</span>
+  <span><a href="https://play.google.com/store/apps/details?id=com.dokkodolabs.neonforge">Google Play</a> · <a href="https://youtu.be/aNmMFXQ1KRU">Trailer</a> · <a href="https://adrianlopez98.github.io/neonforge-privacy/">Privacy policy</a> · <a href="mailto:dokkodolabs@gmail.com">dokkodolabs@gmail.com</a></span>
+</div></footer>
+</body>
+</html>
